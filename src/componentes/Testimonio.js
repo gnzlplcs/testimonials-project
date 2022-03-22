@@ -6,8 +6,8 @@ const Testimonio = (props) => {
     <div className="contenedor-testimonio">
       <img
         className="imagen-testimonio"
-        src={require("../imagenes/testimonio-emma.png")}
-        alt="Perfil de Emma"
+        src={require(`../imagenes/testimonio-${props.imagen}.png`)}
+        alt={`Perfil de ${props.nombre}`}
       />
       <div className="contenedor-texto-testimonio">
         <p className="nombre-testimonio">
